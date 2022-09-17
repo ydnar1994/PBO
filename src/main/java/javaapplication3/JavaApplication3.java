@@ -1,5 +1,7 @@
 package javaapplication3;
 
+import javaapplication3.Aritmatika;
+
 public class JavaApplication3 extends Aritmatika {
     public static void main (String[] args){
         Integer nilai1=12;
