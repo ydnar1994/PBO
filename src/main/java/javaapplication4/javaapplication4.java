@@ -33,7 +33,8 @@ public class javaapplication4 {
                     Integer jmlUang = sc.nextInt();
                     if (jmlUang < totBayar){
                         do {
-                            System.out.println("Uang anda kurang...");
+                            System.out.println("Uang Anda Kurang");
+                            System.out.println("----------------");
                             System.out.println("Bayar:");
                             jmlUang = sc.nextInt();
                         }while (jmlUang < totBayar);
@@ -55,17 +56,30 @@ public class javaapplication4 {
 
         System.out.println("Nama : ");
         nama = sc.nextLine();
+        if(!nama.equalsIgnoreCase("americano") && !nama.equalsIgnoreCase("latte")
+                && !nama.equalsIgnoreCase("arabika")){
+            do{
+                System.out.println("Nama Pesanan Tidak Sesuai");
+                System.out.println("-------------------------");
+                System.out.println("Nama : ");
+                nama = sc.nextLine();
+            }while(!nama.equalsIgnoreCase("americano") && !nama.equalsIgnoreCase("latte")
+                    && !nama.equalsIgnoreCase("arabika"));
+        }
         System.out.println("Gula :");
         gula = sc.nextLine();
         System.out.println("Harga : ");
         harga = sc.nextInt();
         System.out.println("Qty : ");
         qty = sc.nextInt();
-        do{
-            System.out.println("Qty minimal 1 ");
-            System.out.println("Qty : ");
-            qty = sc.nextInt();
-        }while (qty <= 0);
+        if(qty <= 0){
+            do{
+                System.out.println("Qty minimal 1 ");
+                System.out.println("--------------");
+                System.out.println("Qty : ");
+                qty = sc.nextInt();
+            }while (qty <= 0);
+        }
 
         listPesan.add(new Pesan(nama,gula,harga,qty));
 
