@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ab944f4-7b25-41b0-bf3e-390584ee1a62" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/javaapplication4/javaapplication4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javaapplication4/javaapplication4.java" afterDir="false" />
-    </list>
+    <list default="true" id="5ab944f4-7b25-41b0-bf3e-390584ee1a62" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/javaapplication4/javaapplication4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-510">
-              <caret line="42" column="53" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="53" />
+            <state relative-caret-position="493">
+              <caret line="101" column="48" lean-forward="true" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -446,10 +444,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="830" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -711,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/javaapplication4/javaapplication4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="42" column="53" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="53" />
+        <state relative-caret-position="493">
+          <caret line="101" column="48" lean-forward="true" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
