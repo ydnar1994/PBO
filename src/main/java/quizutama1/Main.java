@@ -1,4 +1,4 @@
-package quizutama;
+package quizutama1;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        DecimalFormat formatter = new DecimalFormat("#0.00");
+        DecimalFormat formatter = new DecimalFormat("#,###,###.##");
         boolean isAdmin=false;
 
         boolean isLogin=true;
@@ -93,7 +93,7 @@ public class Main {
     }
 
     private static BarangMasuk barangMasuk(List<BarangMasuk> listBarang,BarangMasuk modal) {
-        DecimalFormat formatter = new DecimalFormat("#0.00");
+        DecimalFormat formatter = new DecimalFormat("#,###,###.##");
 
         int pilihBarang=0,jumlahBarang=0;
         Scanner sc=new Scanner(System.in);
@@ -122,7 +122,7 @@ public class Main {
     }
 
     private static BarangMasuk barangKeluar(List<BarangKeluar> listBarang,BarangMasuk modal) {
-        DecimalFormat formatter = new DecimalFormat("#0.00");
+        DecimalFormat formatter = new DecimalFormat("#,###,###.##");
 
         int pilihBarang,jumlahBarang;
         Scanner sc=new Scanner(System.in);
@@ -147,7 +147,9 @@ public class Main {
         System.out.println();
         System.out.println();
         modal.setModalAwal(totalKas-totalPengeluaran);
-        System.out.print("Sisa Kas dari Total Pengeluaran => Rp."+formatter.format(totalKas+totalPengeluaran));
+        System.out.print("Sisa Kas dari Total Pengeluaran => Rp."+formatter.format(totalKas-totalPengeluaran));
+        System.out.println();
+        System.out.println();
 
         return modal;
     }

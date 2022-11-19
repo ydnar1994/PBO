@@ -1,15 +1,10 @@
-package quizutama;
+package quizutama1;
 
-public class BarangMasuk {
-    Integer modalAwal=20000000;
+public class BarangKeluar {
     String jenisBarang,namaBarang,jumlah;
     Integer harga;
 
     String nama,nik;
-
-    public void setModalAwal(Integer modalAwal) {
-        this.modalAwal = modalAwal;
-    }
 
     public String getNama() {
         return nama;
@@ -25,10 +20,6 @@ public class BarangMasuk {
 
     public void setNik(String nik) {
         this.nik = nik;
-    }
-
-    public Integer getModalAwal() {
-        return modalAwal;
     }
 
     public String getJenisBarang() {

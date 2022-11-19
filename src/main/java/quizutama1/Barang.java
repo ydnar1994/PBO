@@ -1,4 +1,4 @@
-package quizutama;
+package quizutama1;
 
 import java.util.ArrayList;
 import java.util.List;

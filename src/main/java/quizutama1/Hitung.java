@@ -1,4 +1,4 @@
-package quizutama;
+package quizutama1;
 
 public class Hitung {
     Integer totalPemasukan=0,totalPengeluaran=0;
