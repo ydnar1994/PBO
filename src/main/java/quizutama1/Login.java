@@ -3,9 +3,11 @@ package quizutama1;
 import java.util.Scanner;
 
 public class Login {
+    private String ID="admin123";
+
     public boolean doLogin(){
         boolean isLogin=true;
-        String ID="admin123";
+
         String idInput="";
 
         Scanner sc=new Scanner(System.in);
@@ -20,4 +22,5 @@ public class Login {
 
         return isLogin;
     }
+
 }

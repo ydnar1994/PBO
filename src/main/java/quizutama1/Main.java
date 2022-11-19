@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        DecimalFormat formatter = new DecimalFormat("#,###,###.##");
+        DecimalFormat formatter = new DecimalFormat("#,###,###.00");
         boolean isAdmin=false;
 
         boolean isLogin=true;
@@ -16,7 +16,6 @@ public class Main {
         BarangMasuk bm=new BarangMasuk();
         List<BarangMasuk>  listBarangMasuk=new ArrayList<BarangMasuk>();
         List<BarangKeluar>  listBarangKeluar=new ArrayList<BarangKeluar>();
-        List<Barang> listBarang = new ArrayList<Barang>();
 
         System.out.println("--- Distributor PT. Garuda Abadi Group ---");
         System.out.println("==========================================");
@@ -64,7 +63,7 @@ public class Main {
                     System.out.println("-----------------------------------------------------");
                     bm = barangMasuk(listBarangMasuk,bm);
                 }else if(pilih==2){
-                    System.out.println("*** Pendataan Barang Masuk PT. Garuda Abadi Group ***");
+                    System.out.println("*** Pendataan Barang Keluar PT. Garuda Abadi Group ***");
                     System.out.println("-----------------------------------------------------");
                     System.out.printf("|| %-10s || %-5s || %-8s || %-9s ||",
                             "Jenis Barang",
@@ -93,7 +92,7 @@ public class Main {
     }
 
     private static BarangMasuk barangMasuk(List<BarangMasuk> listBarang,BarangMasuk modal) {
-        DecimalFormat formatter = new DecimalFormat("#,###,###.##");
+        DecimalFormat formatter = new DecimalFormat("#,###,###.00");
 
         int pilihBarang=0,jumlahBarang=0;
         Scanner sc=new Scanner(System.in);
@@ -122,7 +121,7 @@ public class Main {
     }
 
     private static BarangMasuk barangKeluar(List<BarangKeluar> listBarang,BarangMasuk modal) {
-        DecimalFormat formatter = new DecimalFormat("#,###,###.##");
+        DecimalFormat formatter = new DecimalFormat("#,###,###.00");
 
         int pilihBarang,jumlahBarang;
         Scanner sc=new Scanner(System.in);
